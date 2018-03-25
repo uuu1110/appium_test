@@ -1,6 +1,8 @@
 # This sample code uses the Appium python client
 # pip install Appium-Python-Client
 # Then you can paste this into a file and simply run with Python
+import sys
+sys.path.append('C:\\Users\Administrator\AppData\Roaming\Python\Python35\site-packages')
 
 from appium import webdriver
 import time
